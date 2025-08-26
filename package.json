@@ -1,0 +1,10 @@
+{
+	"name": "camunda-demo",
+	"private": true,
+	"workspaces": ["backend", "frontend"],
+	"scripts": {
+		"dev:api": "npm run -w backend dev",
+		"build:api": "npm run -w backend build",
+		"start:api": "npm run -w backend start"
+	}
+}
